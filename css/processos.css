@@ -1,0 +1,86 @@
+#proc_main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+#procintroimg{
+    background-image: url(img/proc_img.jpg);
+    height: 140px;
+    width: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 40px;
+}
+#procintrotitl{
+    width: 1100px;
+    height: 100px;
+    font-family: 'raleway', sans-serif;
+    font-size: 80px;
+    color: white;
+    text-shadow: 0px 0px 20px black;
+}
+
+#procbar {
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+#procbutt1, #procbutt2, #procbutt3{
+    height: 100px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    opacity: 0.6;
+    transition: 0.6s;
+}
+
+#procbutt1{
+    background-image: url(img/block1.jpg);
+}
+#procbutt2{
+    background-image: url(img/block1.jpg);
+}
+#procbutt3{
+    background-image: url(img/block1.jpg);
+}
+#procbutt1:hover, #procbutt2:hover, #procbutt3:hover, #procbutt1:focus, #procbutt2:focus, #procbutt3:focus, #procbutt1:active, #procbutt2:active, #procbutt3:active {
+    opacity: 1;
+}
+
+.procname {
+    font-family: 'raleway', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+#proc_cont{
+    width: 1100px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

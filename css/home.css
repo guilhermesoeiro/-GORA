@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway:400,700');
+
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    height: 100%;
+    min-height: 100%;
+}
+
+#navb {
+    width: 100%;
+    height: 60px;
+    min-height: 60px;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 2px 4px #aaaaaa;
+    z-index: 100;
+    align-content: center;
+    justify-content: center;
+}
+
+#nshelf {
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    box-sizing: border-box;
+}
+
+#nlogo {
+    width:50px;
+    height:46px;
+    background-image: url(img/logo_p.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    cursor: pointer;
+}
+
+#burger {
+    width: 40px;
+    height: 60px;
+    background-image: url(img/burger.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: 10;
+    border: none;
+    background-color: white;
+}
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+    align-self: center;
+}
+
+#dropdown:hover #drop_cont, #dropdown:focus #drop_cont, #dropdown:active #drop_cont {
+    display: block;
+}
+
+#drop_cont {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-sizing: border-box;
+    z-index: 101;
+    transform: translate(-120px, -2px);
+    box-shadow: 0px 2px 4px #aaaaaa;
+}
+
+#drop_cont a {
+    color: #1e1e1e;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    font-family: 'raleway', sans-serif;
+    cursor: pointer;
+}
+
+#drop_cont a:hover, #drop_cont a:focus, #drop_cont a:active {
+    background-color: black;
+    color: white
+}
+
+
+#header {
+    width: 100%;
+    min-width: 100%;
+    height: 100vh;
+    min-height: 800px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#stage {
+    width: 1100px;
+    min-width: 0px;
+    height: 800px;
+    min-height: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap; 
+    overflow: hidden;
+    justify-content: center;
+}
+
+#stgnm {
+    height: 60px;
+    width: 230px;
+    display: flex;
+    position: absolute;
+    align-self: center;
+    background-image: url(img/a_name_p.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#block1, #block2, #block3, #block4 {
+    width: 550px;
+    min-width: 0px;
+    height: 400px;
+    min-height: 0px;
+    background-color: white;
+    display: flex;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.blockmt{
+    display: none;
+}
+
+#block1c, #block2c, #block3c, #block4c {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    display: flex;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+#block1c {
+    height: 230px;
+    width: 230px;
+    margin-left: 292px;
+    margin-top: 142px;
+    background-image: url(img/block1_1.png);
+}
+
+#block2c {
+    height: 308px;
+    width: 308px;
+    margin-left: 28px;
+    margin-top: 64px;
+    background-image: url(img/block2_1.png);
+}
+
+#block3c {
+    height: 172px;
+    width: 172px;
+    margin-left: 350px;
+    margin-bottom: 200px;
+    background-image: url(img/block3_1.png);
+    align-self: flex-end;
+}
+
+#block4c {
+    height: 230px;
+    width: 230px;
+    margin-left: 28px;
+    margin-bottom: 142px;
+    background-image: url(img/block4_1.png);
+    align-self: flex-end;
+}
+
+.blocktl, .blocktr {
+    height: 800px;
+    width: 550px;
+    background-color: whitesmoke;
+    display: none;
+    opacity: 0.9;
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+.blocktr {
+    margin-left: 28px;
+    text-align: left;
+    flex-direction: column;
+}
+
+.blocktl {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.blocktitle{
+    font-family: 'raleway', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.blocktxt{
+    font-size: 26px;
+}
+
+#block1:hover, #block2:hover, #block3:hover, #block4:hover, #block1:focus, #block2:focus, #block3:focus, #block4:focus, #block1:active, #block2:active, #block3:active, #block4:active{
+    width: 1100px;
+    min-width: 1100px;
+    height: 800px;
+    min-height: 800px;
+    background-position: center;
+    background-size: contain;
+}
+
+#block1:hover, #block1:focus, #block1:active{
+    background-image: url(img/block1.jpg);
+    position: absolute;
+}
+
+#block1:hover #block1c, #block1:focus #block1c, #block1:active #block1c{
+    background-image: url(img/block1_2.png);
+    transition: 0.6s;
+}
+
+#block2:hover, #block2:focus, #block2:active{
+    background-image: url(img/block1.jpg);
+    position: absolute;
+}
+
+#block2:hover #block2c, #block2:focus #block2c, #block2:active #block2c{
+    background-image: url(img/block2_2.png);
+    transition: 0.6s;
+}
+
+#block3:hover, #block3:focus, #block3:active{
+    background-image: url(img/block3.jpg);
+    position: absolute;
+}
+
+#block3:hover #block3c, #block3:focus #block3c, #block3:active #block3c{
+    background-image: url(img/block3_2.png);
+    margin-top: 428px;
+    transition: 0.6s;
+}
+
+#block4:hover, #block4:focus, #block4:active{
+    background-image: url(img/block1.jpg);
+    position: absolute;
+}
+
+#block4:hover #block4c, #block4:focus #block4c, #block4:active #block4c{
+    background-image: url(img/block4_2.png);
+    margin-top: 428px;
+    transition: 0.6s;
+}
+
+#block1:hover .blocktr, #block2:hover .blocktl, #block3:hover .blocktr, #block4:hover .blocktl, #block1:focus .blocktr, #block2:focus .blocktl, #block3:focus .blocktr, #block4:focus .blocktl, #block1:active .blocktr, #block2:active .blocktl, #block3:active .blocktr, #block4:active .blocktl{
+    display: flex;
+}
+
+#footer {
+    width: 100%;
+    height: 60px;
+    background-color: dimgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+#fshelf {
+    height: 60px;
+    width: 1100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.foottxt {
+    display: flex;
+    font-family: 'raleway', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#falogo, #fbalogo {
+    height: 30px;
+    width: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#falogo {
+    background-image: url(img/a_name_b.png);
+    margin-left: 6px;
+}
+
+#fbalogo {
+    background-image: url(img/ba_h_n.png);
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 1100px){
+    
+    #navb {
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+    
+    #nshelf {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    box-sizing: border-box;
+}
+    
+    #header {
+        width: 100%;
+        min-width: 100%;
+        height: 100%;
+        min-height: 100%;
+        background-color: #fafafa;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+#stage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    overflow:visible;
+    justify-content: center;
+    flex-flow: column;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#stgnm {
+    height: 60px;
+    width: 230px;
+    display: flex;
+    position:relative;
+    background-image: url(img/a_name_p.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#block1, #block2, #block3, #block4 {
+    width: 100%;
+    min-width: 100%;
+    height: 200px;
+    min-height: 200px;
+    background-color: white;
+    display: flex;
+    pointer-events: none;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    margin-top: 60px;
+    box-sizing: border-box;
+    padding: 40px;
+    justify-content: space-between;
+    transition: 0.5s;
+    filter: grayscale(60%);
+}
+    #block1 {
+        background-image: url(img/block1.jpg);
+    }
+    
+    #block2 {
+        background-image: url(img/block1.jpg);
+    }
+    
+    #block3 {
+        background-image: url(img/block3.jpg);
+    }
+    
+    #block4 {
+        background-image: url(img/block1.jpg);
+    }
+
+    .blockmt{
+        display: flex;
+        font-family: 'raleway', sans-serif;
+        color: white;
+        font-size: 80px;
+        text-shadow: 0px 0px 20px black;
+    }
+    
+#block1c, #block2c, #block3c, #block4c {
+    height: 160px;
+    width: 160px;
+    margin: 0px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    display: flex;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+#block1c {
+    background-image: url(img/block1_2.png);
+}
+
+#block2c {
+    background-image: url(img/block2_2.png);
+}
+
+#block3c {
+    background-image: url(img/block3_2.png);
+    align-self:auto;
+}
+
+#block4c {
+    background-image: url(img/block4_2.png);
+    align-self:auto;
+}
+
+.blocktl, .blocktr {
+    height: 800px;
+    width: 550px;
+    background-color: whitesmoke;
+    display: none;
+    opacity: 0.9;
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+.blocktr {
+    margin-left: 28px;
+    text-align: left;
+    flex-direction: column;
+}
+
+.blocktl {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.blocktitle{
+    font-family: 'raleway', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.blocktxt{
+    font-size: 26px;
+}
+
+#block1:hover, #block2:hover, #block3:hover, #block4:hover, #block1:focus, #block2:focus, #block3:focus, #block4:focus, #block1:active, #block2:active, #block3:active, #block4:active{
+    width: 100%;
+    min-width: 100%;
+    height: 200px;
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+#block1:hover, #block1:focus, #block1:active{
+    background-image: url(img/block1.jpg);
+    position:relative;
+    filter: grayscale(0%);
+    
+}
+
+#block1:hover #block1c, #block1:focus #block1c, #block1:active #block1c{
+    background-image: url(img/block1_2.png);
+    transition: 0s;
+}
+
+#block2:hover, #block2:focus, #block2:active{
+    background-image:url(img/block1.jpg);
+    position: relative;
+    filter: grayscale(0%);
+}
+
+#block2:hover #block2c, #block2:focus #block2c, #block2:active #block2c{
+    background-image:url(img/block2_2.png);
+    transition: 0s;
+}
+
+#block3:hover, #block3:focus, #block3:active{
+    background-image:url(img/block3.jpg);
+    position: relative;
+    filter: grayscale(0%);
+}
+
+#block3:hover #block3c, #block3:focus #block3c, #block3:active #block3c{
+    background-image:url(img/block3_2.png);
+    margin-top: 0px;
+    transition: 0s;
+}
+
+#block4:hover, #block4:focus, #block4:active{
+    background-image: url(img/block1.jpg);
+    position: relative;
+    filter: grayscale(0%);
+}
+
+#block4:hover #block4c, #block4:focus #block4c, #block4:active #block4c{
+    background-image: url(img/block4_2.png);
+    margin-top: 0px;
+    transition: 0;
+}
+
+#block1:hover .blocktr, #block2:hover .blocktl, #block3:hover .blocktr, #block4:hover .blocktl, #block1:focus .blocktr, #block2:focus .blocktl, #block3:focus .blocktr, #block4:focus .blocktl, #block1:active .blocktr, #block2:active .blocktl, #block3:active .blocktr, #block4:active .blocktl{
+    display: none;
+}
+
+    #footer {
+        position: relative;
+        float: bottom;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        align-self: flex-end;
+
+    }
+    
+    #fshelf {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+        padding: 10px;
+}   
+}
+
+@media screen and (max-width: 780px) {
+    
+    #stage {
+        margin-top: 40px;
+    }
+    
+    #block1, #block2, #block3, #block4 {
+        margin-top: 40px;
+    }
+    
+    #stgnm {
+    height: 60px;
+    width: 230px;
+    margin-top: 40px;
+        margin-bottom: 20px;
+}
+
+#block1, #block2, #block3, #block4 {
+    height: 160px;
+    min-height: 160px;
+}
+    .blockmt{
+        font-size: 60px;
+    }
+   
+    #block1c, #block2c, #block3c, #block4c {
+    height: 120px;
+    width: 120px;
+    }
+    
+    #block1:hover, #block2:hover, #block3:hover, #block4:hover, #block1:focus, #block2:focus, #block3:focus, #block4:focus, #block1:active, #block2:active, #block3:active, #block4:active{
+    height: 160px;
+    min-height: 160px;
+}
+}
+
+
+@media screen and (max-width: 660px) {
+    #navb {
+        height: 40px;
+    min-height: 40px;
+    }
+    
+    #nlogo {
+    width:30px;
+    height:30px;
+}
+
+#burger {
+    width: 30px;
+    height: 40px;
+    background-color: white;
+}
+    #header {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #stage {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#stgnm {
+    height: 40px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#block1, #block2, #block3, #block4 {
+    height: 120px;
+    min-height: 120px;
+    margin-top: 20px;
+    padding: 20px;
+}
+    
+    #block1:hover, #block2:hover, #block3:hover, #block4:hover, #block1:focus, #block2:focus, #block3:focus, #block4:focus, #block1:active, #block2:active, #block3:active, #block4:active{
+    height: 120px;
+    min-height: 120px;
+}
+    .blockmt{
+        font-size: 36px;
+    }
+    
+    #block1c, #block2c, #block3c, #block4c {
+    height: 80px;
+    width: 80px;
+    }
+    
+    #footer{
+        height: 40px;
+    }
+    
+    #fshelf{
+        height: 40px;
+    }
+    
+    .foottxt {
+    font-size: 16px;
+}
+
+#falogo, #fbalogo {
+    height: 20px;
+    width: 100px;
+}
+
+#falogo {
+    margin-left: 0px;
+}
+
+#fbalogo {
+    margin-left: 0px;
+}
+}
+
+@media screen and (max-width:360px){
+    .blockmt{
+        font-size: 30px;
+    }
+}
