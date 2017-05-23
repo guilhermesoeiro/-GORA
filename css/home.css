@@ -452,27 +452,6 @@ body {
     align-self:auto;
 }
 
-.blocktl, .blocktr {
-    height: 800px;
-    width: 550px;
-    background-color: whitesmoke;
-    display: none;
-    opacity: 0.9;
-    box-sizing: border-box;
-    padding: 60px;
-}
-
-.blocktr {
-    margin-left: 28px;
-    text-align: left;
-    flex-direction: column;
-}
-
-.blocktl {
-    flex-direction: column;
-    align-items: flex-end;
-}
-
 .blocktitle{
     font-family: 'raleway', sans-serif;
     font-weight: 400;
