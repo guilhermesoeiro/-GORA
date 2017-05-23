@@ -257,7 +257,7 @@ body {
 }
 
 #block2:hover, #block2:focus, #block2:active{
-    background-image: url(img/block1.jpg);
+    background-image: url(img/block2.jpg);
     position: absolute;
 }
 
@@ -278,7 +278,7 @@ body {
 }
 
 #block4:hover, #block4:focus, #block4:active{
-    background-image: url(img/block1.jpg);
+    background-image: url(img/block4.jpg);
     position: absolute;
 }
 
@@ -420,7 +420,7 @@ body {
     }
     
     #block2 {
-        background-image: url(img/block1.jpg);
+        background-image: url(img/block2.jpg);
     }
     
     #block3 {
@@ -428,7 +428,7 @@ body {
     }
     
     #block4 {
-        background-image: url(img/block1.jpg);
+        background-image: url(img/block4.jpg);
     }
 
     .blockmt{
@@ -502,7 +502,7 @@ body {
 }
 
 #block2:hover, #block2:focus, #block2:active{
-    background-image:url(img/block1.jpg);
+    background-image:url(img/block2.jpg);
     position: relative;
     filter: grayscale(0%);
 }
@@ -525,7 +525,7 @@ body {
 }
 
 #block4:hover, #block4:focus, #block4:active{
-    background-image: url(img/block1.jpg);
+    background-image: url(img/block4.jpg);
     position: relative;
     filter: grayscale(0%);
 }
