@@ -197,11 +197,12 @@ body {
 .blocktl, .blocktr {
     height: 800px;
     width: 550px;
-    background-color: whitesmoke;
     display: none;
-    opacity: 0.9;
+    opacity: 1;
     box-sizing: border-box;
     padding: 60px;
+    align-self: flex-end;
+    background-color: white;
 }
 
 .blocktr {

@@ -10,24 +10,26 @@
 
 #procintroimg{
     background-image: url(img/proc_img.jpg);
-    height: 140px;
+    height: 220px;
     width: 1100px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items:flex-end;
     box-sizing: border-box;
-    padding: 40px;
 }
 #procintrotitl{
-    width: 1100px;
-    height: 100px;
+    width: 550px;
+    height: 220px;
     font-family: 'raleway', sans-serif;
     font-size: 80px;
-    color: white;
-    text-shadow: 0px 0px 20px black;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: white;
+    display:flex;
+    align-items: flex-end;
 }
 
 #procbar {
@@ -61,10 +63,10 @@
     background-image: url(img/block1.jpg);
 }
 #procbutt2{
-    background-image: url(img/block1.jpg);
+    background-image: url(img/ines_img.JPG);
 }
 #procbutt3{
-    background-image: url(img/block1.jpg);
+    background-image: url(img/gui_img.JPG);
 }
 #procbutt1:hover, #procbutt2:hover, #procbutt3:hover, #procbutt1:focus, #procbutt2:focus, #procbutt3:focus, #procbutt1:active, #procbutt2:active, #procbutt3:active {
     opacity: 1;
@@ -74,6 +76,7 @@
     font-family: 'raleway', sans-serif;
     font-size: 40px;
     color: white;
+    text-shadow: 0px 0px 10px black;
 }
 
 #proc_cont{
