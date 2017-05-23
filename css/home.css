@@ -198,7 +198,6 @@ body {
     height: 800px;
     width: 550px;
     display: none;
-    opacity: 1;
     box-sizing: border-box;
     padding: 60px;
     align-self: flex-end;
