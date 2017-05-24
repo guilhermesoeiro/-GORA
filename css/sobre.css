@@ -19,7 +19,7 @@
 }
 #sstitl {
     font-family: 'raleway', sans-serif;
-    font-size: 80px;
+    font-size: 50px;
     box-sizing: border-box;
     padding: 30px;
     padding-bottom: 40px;
@@ -94,7 +94,7 @@ iframe{
     height: 180px;
 }
     #sstitl {
-    font-size: 60px;
+    font-size: 40px;
     padding: 20px;
     padding-bottom: 30px;
 }
@@ -144,7 +144,7 @@ iframe{
     height: 140px;
 }
     #sstitl{
-    font-size: 46px;
+    font-size: 30px;
 }
     .ss_citation{
         margin-top: 20px;

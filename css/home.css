@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700');
 @charset "utf-8";
-
 body {
     margin: 0;
     padding: 0;
@@ -10,6 +9,8 @@ body {
     background-color: #fafafa;
     height: 100%;
     min-height: 100%;
+    -webkit-display: flex;
+    -webkit-flex-direction: column;
 }
 
 #navb {
@@ -24,6 +25,7 @@ body {
     z-index: 100;
     align-content: center;
     justify-content: center;
+    -webkit-display: flex;
 }
 
 #nshelf {
@@ -32,6 +34,8 @@ body {
     flex-direction: row;
     justify-content:space-between;
     box-sizing: border-box;
+    -webkit-display: flex;
+    -webkit-flex-direction: row;
 }
 
 #nlogo {
@@ -108,6 +112,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 60px;
+    -webkit-display: flex;
+    -webkit-flex-direction: column;
 }
 
 #stage {
@@ -120,6 +126,9 @@ body {
     flex-flow: wrap; 
     overflow: hidden;
     justify-content: center;
+    -webkit-display: flex;
+    -webkit-flex-direction: row;
+    -webkit-flex-flow: wrap; 
 }
 
 #stgnm {
@@ -132,6 +141,7 @@ body {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    -webkit-display: flex;
 }
 
 #block1, #block2, #block3, #block4 {
@@ -143,6 +153,7 @@ body {
     display: flex;
     pointer-events: none;
     overflow: hidden;
+    -webkit-display: flex;
 }
 
 .blockmt{
@@ -157,6 +168,7 @@ body {
     display: flex;
     pointer-events: auto;
     cursor: pointer;
+    -webkit-display: flex;
 }
 
 #block1c {
@@ -206,24 +218,30 @@ body {
     margin-left: 28px;
     text-align: left;
     flex-direction: column;
+    -webkit-flex-direction: column;
 }
 
 #blocktl {
     flex-direction: column;
     align-items: flex-end;
+    text-align: right;
+    -webkit-flex-direction: column;
 }
 
 #blocktr2 {
     margin-left: 28px;
-    text-align: left;
     flex-direction: column;
     align-self: flex-end;
+    -webkit-flex-direction: column;
+    
 }
 
 #blocktl2 {
     flex-direction: column;
     align-items: flex-end;
     align-self: flex-end;
+    text-align: right;
+    -webkit-flex-direction: column;
 }
 
 .blocktitle {
@@ -233,6 +251,7 @@ body {
 }
 
 .blocktxt{
+    width: 390px;
     font-size: 30px;
     margin-top: 30px;
 }
@@ -244,6 +263,7 @@ body {
     min-height: 800px;
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat
 }
 
 #block1:hover, #block1:focus, #block1:active{
@@ -254,6 +274,7 @@ body {
 #block1:hover #block1c, #block1:focus #block1c, #block1:active #block1c{
     background-image: url(img/block1_2.png);
     transition: 0.6s;
+    -webkit-transition: 0.6s;
 }
 
 #block2:hover, #block2:focus, #block2:active{
@@ -264,6 +285,7 @@ body {
 #block2:hover #block2c, #block2:focus #block2c, #block2:active #block2c{
     background-image: url(img/block2_2.png);
     transition: 0.6s;
+    -webkit-transition: 0.6s;
 }
 
 #block3:hover, #block3:focus, #block3:active{
@@ -275,6 +297,7 @@ body {
     background-image: url(img/block3_2.png);
     margin-top: 428px;
     transition: 0.6s;
+    -webkit-transition: 0.6s;
 }
 
 #block4:hover, #block4:focus, #block4:active{
@@ -286,6 +309,7 @@ body {
     background-image: url(img/block4_2.png);
     margin-top: 428px;
     transition: 0.6s;
+    -webkit-transition: 0.6s;
 }
 
 #block1:hover #blocktr2, #block2:hover #blocktl2, #block3:hover #blocktr, #block4:hover #blocktl, #block1:focus #blocktr2, #block2:focus #blocktl2, #block3:focus #blocktr, #block4:focus #blocktl, #block1:active #blocktr2, #block2:active #blocktl2, #block3:active #blocktr, #block4:active #blocktl{
@@ -300,6 +324,8 @@ body {
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    -webkit-display: flex;
+    -webkit-flex-direction: row;
 }
 
 #fshelf {
@@ -309,6 +335,8 @@ body {
     display: flex;
     flex-direction:row;
     align-items: center;
+    -webkit-display: flex;
+    -webkit-flex-direction:row;
 }
 
 .foottxt {
@@ -316,6 +344,7 @@ body {
     font-family: 'raleway', sans-serif;
     font-size: 20px;
     color: white;
+    -webkit-display: flex;
 }
 
 #falogo, #fbalogo, #fblogo {
@@ -351,11 +380,6 @@ body {
     }
     
     #nshelf {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    box-sizing: border-box;
 }
     
     #header {
@@ -364,10 +388,6 @@ body {
         height: 100%;
         min-height: 100%;
         background-color: #fafafa;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         margin-top: 60px;
         margin-bottom: 60px;
     }

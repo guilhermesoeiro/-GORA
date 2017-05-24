@@ -21,7 +21,7 @@
 }
 #procintrotitl{
     font-family: 'raleway', sans-serif;
-    font-size: 80px;
+    font-size: 50px;
     box-sizing: border-box;
     padding: 30px;
     padding-bottom: 40px;
@@ -66,7 +66,7 @@
 }
 
 #procbutt1{
-    background-image: url(img/block1.jpg);
+    background-image: url(img/ana_img.JPG);
 }
 #procbutt2{
     background-image: url(img/gui_img.JPG);
@@ -101,12 +101,11 @@
     font-size: 20px;
     margin-bottom: 30px;
 }
-
 iframe {
     width: 800px;
     height: 450px;
     margin-top: 80px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1100px){
@@ -139,7 +138,7 @@ iframe {
     height: 180px;
 }
     #procintrotitl{
-    font-size: 60px;
+    font-size: 40px;
     padding: 20px;
     padding-bottom: 30px;
 }
@@ -181,7 +180,7 @@ iframe {
     height: 140px;
 }
     #procintrotitl{
-    font-size: 46px;
+    font-size: 30px;
 }
     #procbar{
         height: 100px;
