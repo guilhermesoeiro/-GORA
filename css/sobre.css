@@ -151,6 +151,10 @@ iframe{
     }
 }
 @media screen and (max-width:560px) {
+    .ss_titls {
+    font-size: 30px;
+    margin-top: 40px;
+}
     iframe {
         height: 180px;
         width: 320px;
