@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #sobre_main{
     display: flex;
     flex-direction: column;
@@ -156,4 +157,164 @@ iframe{
         width: 320px;
         margin-top: 40px;
     }
+=======
+#sobre_main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#ssimg {
+    width: 1100px;
+    height: 220px;
+    background-image: url(img/sobre_img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+#sstitl {
+    font-family: 'raleway', sans-serif;
+    font-size: 80px;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-bottom: 40px;
+    display:flex;
+    align-items: flex-end;
+    color: white;
+    text-shadow: 0px 0px 20px black;
+}
+#ss_cont{
+    width: 1100px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.ss_titls {
+    font-family: 'raleway', sans-serif;
+    width: 800px;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.ss_citation {
+    font-family: 'raleway', sans-serif;
+    font-weight: 700;
+    width: 800px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.ss_txt {
+    width: 800px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#ss_cont_logos, #ss_cont_logo{
+    width: 600px;
+    height:400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+#ss_cont_logos{
+   background-image: url(img/logo_planta.jpg); 
+}
+#ss_cont_logo{
+    background-image: url(img/logo_big.jpg);
+}
+
+iframe{
+    width: 800px;
+    height: 450px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 1100px){
+   #ssimg {
+    width: 100%;
+}
+    #ss_cont{
+    width: 100%;
+}
+}
+@media screen and (max-width:800px){
+    #ssimg {
+    height: 180px;
+}
+    #sstitl {
+    font-size: 60px;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+   .ss_titls {
+    width: 100%;
+    font-size: 40px;
+}
+.ss_citation {
+    width: 100%;
+    font-size: 20px;
+}
+
+.ss_txt {
+    width: 100%;
+}
+    iframe{
+    width: 560px;
+    height: 315px;
+    margin-top: 40px;
+}
+}
+@media screen and (max-width:660px){
+    #sobre_main{
+    margin-top: 40px;
+}
+    #ss_cont{
+    padding: 30px;
+}
+.ss_titls {
+    font-size: 40px;
+    margin-top: 60px;
+}
+.ss_citation {
+    font-size: 16px;
+}
+.ss_txt {
+    font-size: 16px;
+}
+    #ss_cont_logos, #ss_cont_logo{
+    width: 100%;
+    height:280px;
+    margin-bottom: 50px;
+}
+}
+@media screen and (max-width:600px) {
+    #ssimg{
+    height: 140px;
+}
+    #sstitl{
+    font-size: 46px;
+}
+    .ss_citation{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:560px) {
+    iframe {
+        height: 180px;
+        width: 320px;
+        margin-top: 40px;
+    }
+>>>>>>> bafacbde8d3cff323230a14585d3379492ab0bd1
 }

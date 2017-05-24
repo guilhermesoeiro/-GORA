@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #proc_main {
     display: flex;
     height: 100%;
@@ -220,4 +221,228 @@ iframe {
      .procname {
     font-size: 16px;
 }
+=======
+#proc_main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+#procintroimg{
+    background-image: url(img/proc_img.jpg);
+    height: 220px;
+    width: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:flex-end;
+    box-sizing: border-box;
+}
+#procintrotitl{
+    font-family: 'raleway', sans-serif;
+    font-size: 80px;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-bottom: 40px;
+    display:flex;
+    align-items: flex-end;
+    color: white;
+    text-shadow: 0px 0px 20px black;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+#procintrotitl:hover, #procintrotitl:focus, #procintrotitl:active {
+    text-shadow: 0px 0px 20px white;
+}
+
+#procbar {
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+#procbutt1, #procbutt2, #procbutt3{
+    height: 100px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    opacity: 0.6;
+    transition: 0.6s;
+    text-decoration: none;
+}
+
+#procbutt1{
+    background-image: url(img/block1.jpg);
+}
+#procbutt2{
+    background-image: url(img/gui_img.JPG);
+}
+#procbutt3{
+    background-image: url(img/ines_img.JPG);
+}
+#procbutt1:hover, #procbutt2:hover, #procbutt3:hover, #procbutt1:focus, #procbutt2:focus, #procbutt3:focus, #procbutt1:active, #procbutt2:active, #procbutt3:active {
+    opacity: 1;
+}
+
+.procname {
+    font-family: 'raleway', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+#proc_cont{
+    width: 1100px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.proc_txt{
+    width: 800px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+iframe {
+    width: 800px;
+    height: 450px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1100px){
+   #procintroimg{
+    width: 100%;
+    }   
+
+    #procbar {
+    width: 100%;
+    }
+
+    #proc_cont{
+    width: 100%;
+    }
+}
+
+@media screen and (max-width:1020px){
+    #procbar{
+        padding: 30px;
+    }
+    #procbutt1, #procbutt2, #procbutt3{
+    width: 240px;
+    }
+    .procname {
+    font-size: 30px;
+}
+}
+@media screen and (max-width:800px){
+    #procintroimg{
+    height: 180px;
+}
+    #procintrotitl{
+    font-size: 60px;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+    #procbar{
+        padding: 20px;
+    }
+    #procbutt1, #procbutt2, #procbutt3{
+        height: 80px;
+        width: 200px;
+    }
+    .proc_txt{
+    width: 100%;
+    }
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
+}
+@media screen and (max-width:660px){
+    #proc_main{
+        margin-top: 40px;
+    }
+    #procbar{
+        height: 120px;
+    }
+    #procbutt1, #procbutt2, #procbutt3{
+        height: 80px;
+        width: 180px;
+    }
+    #proc_cont{
+    padding: 30px;
+}
+    .proc_txt{
+    font-size: 16px;
+}
+}
+@media screen and (max-width:600px) {
+    #procintroimg{
+    height: 140px;
+}
+    #procintrotitl{
+    font-size: 46px;
+}
+    #procbar{
+        height: 100px;
+    }
+    #procbutt1, #procbutt2, #procbutt3{
+        height: 60px;
+        width: 160px;
+    }
+    .procname {
+    font-size: 20px;
+}
+}
+@media screen and (max-width:560px) {
+    #procbar{
+        height: 80px;
+        padding: 10px;
+    }
+    #procbutt1, #procbutt2, #procbutt3{
+        height: 50px;
+        width: 120px;
+        padding: 10px;
+    }
+       .procname {
+    font-size: 18px;
+}
+    iframe {
+        height: 180px;
+        width: 320px;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:375px) {
+    #procbutt1, #procbutt2, #procbutt3{
+        width: 100px;
+    }
+     .procname {
+    font-size: 16px;
+}
+>>>>>>> bafacbde8d3cff323230a14585d3379492ab0bd1
 }
