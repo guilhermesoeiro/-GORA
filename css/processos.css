@@ -152,8 +152,6 @@ iframe {
     }
     .proc_txt{
     width: 100%;
-    font-size: 20px;
-    margin-bottom: 30px;
     }
     iframe {
         width: 560px;
@@ -184,8 +182,6 @@ iframe {
 }
     #procintrotitl{
     font-size: 46px;
-    padding: 20px;
-    padding-bottom: 30px;
 }
     #procbar{
         height: 100px;
@@ -199,14 +195,6 @@ iframe {
 }
 }
 @media screen and (max-width:560px) {
-    #procintroimg{
-    height: 120px;
-}
-    #procintrotitl{
-    font-size: 40px;
-    padding: 10px;
-    padding-bottom: 20px;
-}
     #procbar{
         height: 80px;
         padding: 10px;
