@@ -170,8 +170,12 @@ iframe{
     min-height: 200px;
     width: 300px;
     min-width: 300px;
-        margin-right: 10px;
+        margin-right: 0px;
 }
+    #ss_img1{
+        width:250px;
+        min-width: 250px;
+    }
 }
 @media screen and (max-width:600px) {
     #ssimg{
