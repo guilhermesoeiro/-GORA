@@ -280,7 +280,6 @@ body {
     min-height: 0px;
     background-color: white;
     display: flex;
-    pointer-events: none;
     overflow: hidden;
     -webkit-width: 550px;
     -webkit-min-width: 0px;
@@ -288,7 +287,6 @@ body {
     -webkit-min-height: 0px;
     -webkit-background-color: white;
     -webkit-display: flex;
-    -webkit-pointer-events: none;
     -webkit-overflow: hidden;
 }
 
@@ -303,14 +301,12 @@ body {
     background-repeat: no-repeat;
     transition: 0.4s;
     display: flex;
-    pointer-events: auto;
     cursor: pointer;
     -webkit-background-position: center;
     -webkit-background-size: contain;
     -webkit-background-repeat: no-repeat;
     -webkit-transition: 0.4s;
     -webkit-display: flex;
-    -webkit-pointer-events: auto;
     -webkit-cursor: pointer;
 }
 
