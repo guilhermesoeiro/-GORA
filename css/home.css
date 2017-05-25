@@ -14,7 +14,7 @@ body {
     background-color: #fafafa;
     height: 100%;
     min-height: 100%;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: column;
 }
 article,
@@ -209,7 +209,7 @@ template {
     z-index: 100;
     align-content: center;
     justify-content: center;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: row;
     -webkit-align-content: center;
     -webkit-justify-content: center;
@@ -221,7 +221,7 @@ template {
     flex-direction: row;
     justify-content:space-between;
     box-sizing: border-box;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: row;
     -webkit-justify-content:space-between;
 }
@@ -301,7 +301,7 @@ template {
     justify-content: center;
     align-items: center;
     margin-top: 60px;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: column;
     -webkit-justify-content: center;
     -webkit-align-items: center;
@@ -315,7 +315,7 @@ template {
     flex-flow: wrap; 
     overflow: hidden;
     justify-content: center;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: row;
     -webkit-flex-flow: wrap;
     -webkit-justify-content: center;
@@ -331,7 +331,7 @@ template {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    -webkit-display: flex;
+    display: -webkit-flex;
 }
 
 #block1, #block2, #block3, #block4 {
@@ -341,7 +341,7 @@ template {
     display: flex;
     pointer-events: none;
     overflow: hidden;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-align-self: center;
 }
 
@@ -357,7 +357,7 @@ template {
     display: flex;
     pointer-events: auto;
     cursor: pointer;
-    -webkit-display: flex;
+    display: -webkit-flex;
 }
 
 #block1c {
@@ -516,7 +516,7 @@ template {
 
 #block1:hover #blocktr2, #block2:hover #blocktl2, #block3:hover #blocktr, #block4:hover #blocktl, #block1:focus #blocktr2, #block2:focus #blocktl2, #block3:focus #blocktr, #block4:focus #blocktl, #block1:active #blocktr2, #block2:active #blocktl2, #block3:active #blocktr, #block4:active #blocktl{
     display: flex;
-    -webkit-display: flex;
+    display: -webkit-flex;
 }
 
 #footer {
@@ -527,7 +527,7 @@ template {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: row;
     -webkit-justify-content: center;
     -webkit-align-content: center;
@@ -540,7 +540,7 @@ template {
     display: flex;
     flex-direction:row;
     align-items: center;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction:row;
     -webkit-align-items: center;
 }
@@ -550,7 +550,7 @@ template {
     font-family: 'raleway', sans-serif;
     font-size: 20px;
     color: white;
-    -webkit-display: flex;
+    display: -webkit-flex;
 }
 
 #falogo, #fbalogo, #fblogo {
@@ -610,7 +610,7 @@ template {
     flex-flow: column;
     margin-top: 60px;
     margin-bottom: 60px;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: column; 
     -webkit-justify-content: center;
     -webkit-flex-flow: column;
@@ -625,7 +625,7 @@ template {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    -webkit-display: flex;
+    display: -webkit-flex;
 }
 
 #block1, #block2, #block3, #block4 {
@@ -647,7 +647,7 @@ template {
     justify-content: space-between;
     transition: 0.5s;
     filter: grayscale(60%);
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-align-items: center;
     -webkit-justify-content: space-between;
 }
@@ -673,7 +673,7 @@ template {
         color: white;
         font-size: 80px;
         text-shadow: 0px 0px 20px black;
-        -webkit-display: flex;
+        display: -webkit-flex;
     }
     
 #block1c, #block2c, #block3c, #block4c {
@@ -687,7 +687,7 @@ template {
     display: flex;
     pointer-events:inherit;
     cursor: pointer;
-    -webkit-display: flex;
+    display: -webkit-flex;
 }
 
 #block1c {
@@ -785,7 +785,7 @@ template {
     flex-direction:row;
     align-items: center;
         padding: 10px;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction:row;
     -webkit-align-items: center;
 }   
