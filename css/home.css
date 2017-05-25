@@ -565,16 +565,6 @@ body {
 #block1:hover #blocktr2, #block2:hover #blocktl2, #block3:hover #blocktr, #block4:hover #blocktl, #block1:focus #blocktr2, #block2:focus #blocktl2, #block3:focus #blocktr, #block4:focus #blocktl, #block1:active #blocktr2, #block2:active #blocktl2, #block3:active #blocktr, #block4:active #blocktl{
     display: none;
 }
-
-    #footer {
-        position: absolute;
-        float: bottom;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        align-self: flex-end;
-
-    }
     
     #fshelf {
     width: 100%;
