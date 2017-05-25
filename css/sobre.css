@@ -59,20 +59,84 @@
     font-size: 20px;
     margin-bottom: 30px;
 }
-#ss_cont_logos, #ss_cont_logo{
-    width: 600px;
-    height:400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 50px;
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+    display: none;
 }
 
-#ss_cont_logos{
-   background-image: url(img/logo_planta.jpg); 
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
 }
-#ss_cont_logo{
-    background-image: url(img/logo_big.jpg);
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+    margin-right: 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 iframe{
@@ -89,7 +153,7 @@ iframe{
     width: 100%;
 }
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:850px){
     #ssimg {
     height: 180px;
 }
@@ -110,6 +174,10 @@ iframe{
 .ss_txt {
     width: 100%;
 }
+    .slideshow-container {
+  max-width: 100%;
+    min-width: 100%;
+    }
     iframe{
     width: 560px;
     height: 315px;

@@ -8,6 +8,34 @@
         <link rel="stylesheet" href="css/sobre.css">
         <title>ÁGORA</title>
         <link rel="icon" href="css/img/logo_p.png" type="image/x-icon">
+        <script>
+            var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 0}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+        </script>
     </head>
     <body>
         <div id="navb">
@@ -35,9 +63,35 @@
                 <iframe src="https://www.youtube.com/embed/RlK5m1TpWnk?ecver=1" frameborder="0" allowfullscreen></iframe>
                 <div class="ss_titls">Identidade Gráfica</div>
                 <div class="ss_txt">Tomar o conceito de Ágora como símbolo do nosso posicionamento foi aceitar a responsabilidade de criar uma identidade simbólica desse espaço neutro de diálogo. Esse foi, portanto, o conceito principal. Outro ponto importante a representar foi a origem do nome, a sua herança clássica e geométrica.</div>
-                <div id="ss_cont_logos"></div>
                 <div class="ss_txt">O símbolo é, portanto, a reunião de quadrados de diferentes tamanhos que se intersectam num espaço aglomerador onde as suas dimensões se torna igual. Ao mesmo tempo os diferentes tamanhos simbolizam patamares, como as escadas que rodeiam os edifícios gregos e acolhem os visitantes de todas as direções. A tipografia é leve, geométrica e simples para contrapor o peso do símbolo pesado.</div>
-                <div id="ss_cont_logo"></div>
+                <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="css/img/block1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="css/img/logo_planta.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="css/img/logo_big.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
             </div>
         </div>
         <div id="footer">
