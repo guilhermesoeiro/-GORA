@@ -1,11 +1,16 @@
 #sobre_main{
     display: flex;
     flex-direction: column;
+    margin: auto;
     margin-top: 60px;
     height: 100%;
     width: 100%;
     justify-content: center;
     align-items: center;
+    -webkit-display: flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
 }
 
 #ssimg {
