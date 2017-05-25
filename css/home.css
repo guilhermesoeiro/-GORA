@@ -334,7 +334,6 @@ body {
     -webkit-flex-direction: row;
     -webkit-justify-content: center;
     -webkit-align-content: center;
-    position: sticky;
 }
 
 #fshelf {
