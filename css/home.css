@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700');
 @charset "utf-8";
+html{
+    position: relative;
+    min-height: 100%;
+}
 body {
     margin: 0;
     padding: 0;
@@ -117,6 +121,8 @@ body {
     margin-top: 60px;
     -webkit-display: flex;
     -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
 }
 
 #stage {
@@ -131,7 +137,8 @@ body {
     justify-content: center;
     -webkit-display: flex;
     -webkit-flex-direction: row;
-    -webkit-flex-flow: wrap; 
+    -webkit-flex-flow: wrap;
+    -webkit-justify-content: center;
 }
 
 #stgnm {
@@ -272,6 +279,7 @@ body {
 #block1:hover, #block1:focus, #block1:active{
     background-image: url(img/block1.jpg);
     position: absolute;
+    -webkit-position: absolute;
 }
 
 #block1:hover #block1c, #block1:focus #block1c, #block1:active #block1c{
@@ -283,6 +291,7 @@ body {
 #block2:hover, #block2:focus, #block2:active{
     background-image: url(img/block2.jpg);
     position: absolute;
+    -webkit-position: absolute;
 }
 
 #block2:hover #block2c, #block2:focus #block2c, #block2:active #block2c{
@@ -294,6 +303,7 @@ body {
 #block3:hover, #block3:focus, #block3:active{
     background-image: url(img/block3.jpg);
     position: absolute;
+    -webkit-position: absolute;
 }
 
 #block3:hover #block3c, #block3:focus #block3c, #block3:active #block3c{
@@ -306,6 +316,7 @@ body {
 #block4:hover, #block4:focus, #block4:active{
     background-image: url(img/block4.jpg);
     position: absolute;
+    -webkit-position: absolute;
 }
 
 #block4:hover #block4c, #block4:focus #block4c, #block4:active #block4c{
@@ -317,6 +328,7 @@ body {
 
 #block1:hover #blocktr2, #block2:hover #blocktl2, #block3:hover #blocktr, #block4:hover #blocktl, #block1:focus #blocktr2, #block2:focus #blocktl2, #block3:focus #blocktr, #block4:focus #blocktl, #block1:active #blocktr2, #block2:active #blocktl2, #block3:active #blocktr, #block4:active #blocktl{
     display: flex;
+    -webkit-display: flex;
 }
 
 #footer {
