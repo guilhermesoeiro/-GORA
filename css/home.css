@@ -885,10 +885,10 @@ body {
 #block4:hover #block4c, #block4:focus #block4c, #block4:active #block4c{
     background-image: url(img/block4_2.png);
     margin-top: 0px;
-    transition: 0;
+    transition: 0s;
     -webkit-background-image: url(img/block4_2.png);
     -webkit-margin-top: 0px;
-    -webkit-transition: 0;
+    -webkit-transition: 0s;
 }
 
 #block1:hover #blocktr2, #block2:hover #blocktl2, #block3:hover #blocktr, #block4:hover #blocktl, #block1:focus #blocktr2, #block2:focus #blocktl2, #block3:focus #blocktr, #block4:focus #blocktl, #block1:active #blocktr2, #block2:active #blocktl2, #block3:active #blocktr, #block4:active #blocktl{
