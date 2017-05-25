@@ -11,6 +11,7 @@
 #ssimg {
     width: 1100px;
     height: 220px;
+    min-height: 220px;
     background-image: url(img/sobre_img.jpg);
     background-position: center;
     background-size: cover;

@@ -280,6 +280,7 @@ body {
     min-height: 0px;
     background-color: white;
     display: flex;
+    pointer-events: none;
     overflow: hidden;
     -webkit-width: 550px;
     -webkit-min-width: 0px;
@@ -287,6 +288,7 @@ body {
     -webkit-min-height: 0px;
     -webkit-background-color: white;
     -webkit-display: flex;
+    -webkit-pointer-events: none;
     -webkit-overflow: hidden;
 }
 
@@ -301,12 +303,14 @@ body {
     background-repeat: no-repeat;
     transition: 0.4s;
     display: flex;
+    pointer-events: auto;
     cursor: pointer;
     -webkit-background-position: center;
     -webkit-background-size: contain;
     -webkit-background-repeat: no-repeat;
     -webkit-transition: 0.4s;
     -webkit-display: flex;
+    -webkit-pointer-events: auto;
     -webkit-cursor: pointer;
 }
 
@@ -892,7 +896,21 @@ body {
     -webkit-display: none;
 }
 
-    
+    #footer {
+        position: relative;
+        float: bottom;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        align-self: flex-end;
+        -webkit-position: relative;
+        -webkit-float: bottom;
+        -webkit-bottom: 0;
+        -webkit-left: 0;
+        -webkit-right: 0;
+        -webkit-align-self: flex-end;
+
+    }
     
     #fshelf {
     width: 100%;
