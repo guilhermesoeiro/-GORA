@@ -1,6 +1,7 @@
 #proc_main {
     display: flex;
     height: 100%;
+    min-height: 100%;
     width: 100%;
     flex-direction: column;
     margin-top: 60px;
