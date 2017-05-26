@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 #instimg{
     background-image: url(img/inst_img.jpg);
