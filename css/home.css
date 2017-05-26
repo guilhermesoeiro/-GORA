@@ -288,10 +288,6 @@ template {
     background-color: black;
     color: white
 }
-img {
-    position: absolute;
-}
-
 #header {
     width: 100%;
     min-width: 100%;
