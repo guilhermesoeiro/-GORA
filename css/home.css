@@ -608,7 +608,7 @@ template {
     flex-flow: column;
     margin-top: 60px;
     margin-bottom: 60px;
-    display: -webkit-flex;
+    display: -webkit-block;
     -webkit-flex-direction: column; 
     -webkit-justify-content: center;
     -webkit-flex-flow: column;
