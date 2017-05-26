@@ -315,7 +315,6 @@ template {
     flex-flow: wrap; 
     overflow: hidden;
     justify-content: center;
-    position: relative;
     display: -webkit-flex;
     -webkit-flex-direction: row;
     -webkit-flex-flow: wrap;
