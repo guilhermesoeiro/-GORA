@@ -632,7 +632,7 @@ template {
     height: 200px;
     min-height: 200px;
     background-color: white;
-    display: flex;
+    display: block;
     pointer-events:all;
     overflow: hidden;
     background-repeat: no-repeat;
