@@ -688,9 +688,7 @@ body {
 
 
 @media screen and (max-width: 660px) {
-     #header{
-        height: 680px;
-    }
+     
     #navb {
         height: 40px;
     min-height: 40px;
@@ -707,8 +705,9 @@ body {
     background-color: white;
 }
     #header {
-        margin-top: 40px;
+        margin-top: 0px;
         margin-bottom: 20px;
+        height: 680px;
     }
 
     #stage {
@@ -773,7 +772,6 @@ body {
         margin-right: 30px;
     }
 }
-
 @media screen and (max-width:360px){
     .blockmt{
         font-size: 30px;
