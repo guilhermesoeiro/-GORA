@@ -174,9 +174,17 @@ body {
     display: flex;
     pointer-events: auto;
     cursor: pointer;
+    box-sizing: border-box;
+    padding: 20px;
     display: -webkit-flex;
+    text-decoration: none;
 }
 
+.block_p_txt{
+    color: white;
+    text-shadow: 0px 0px 20px black;
+    font-size: 32px;
+}
 #block1c {
     height: 230px;
     width: 230px;
@@ -191,6 +199,7 @@ body {
     margin-left: 28px;
     margin-top: 64px;
     background-image: url(img/block2_1.png);
+    -webkit-justify-content: flex-end;
 }
 
 #block3c {
@@ -200,7 +209,9 @@ body {
     margin-bottom: 200px;
     background-image: url(img/block3_1.png);
     align-self: flex-end;
+    align-items: flex-end;
     -webkit-align-self: flex-end;
+    -webkit-align-items: flex-end;
 }
 
 #block4c {
@@ -210,7 +221,10 @@ body {
     margin-bottom: 142px;
     background-image: url(img/block4_1.png);
     align-self: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
     -webkit-align-self: flex-end;
+    -webkit-align-items: flex-end;
 }
 
 #blocktl, #blocktr, #blocktl2, #blocktr2 {
@@ -278,7 +292,10 @@ body {
     min-height: 800px;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+}
+#block1:hover #block2, #block1:hover #block3, #block1:hover #block4, #block2:hover #block1, #block2:hover #block3, #block2:hover #block4, #block3:hover #block1, #block3:hover #block2, #block3:hover #block4, #block4:hover #block1, #block4:hover #block2, #block4:hover #block3, #block1:active #block2, #block1:active #block3, #block1:active #block4, #block2:active #block1, #block2:active #block3, #block2:active #block4, #block3:active #block1, #block3:active #block2, #block3:active #block4, #block4:active #block1, #block4:active #block2, #block4:active #block3, #block1:focus #block2, #block1:focus #block3, #block1:focus #block4, #block2:focus #block1, #block2:focus #block3, #block2:focus #block4, #block3:focus #block1, #block3:focus #block2, #block3:focus #block4, #block4:focus #block1, #block4:focus #block2, #block4:focus #block3{
+   display:none;
 }
 
 #block1:hover, #block1:focus, #block1:active{
@@ -293,6 +310,10 @@ body {
     -webkit-transition: 0.6s;
 }
 
+#block1:hover .block_p_txt, #block1:focus .block_p_txt, #block1:active .block_p_txt{
+    display: none;
+}
+
 #block2:hover, #block2:focus, #block2:active{
     background-image: url(img/block2.jpg);
     position: absolute;
@@ -303,6 +324,9 @@ body {
     background-image: url(img/block2_2.png);
     transition: 0.6s;
     -webkit-transition: 0.6s;
+}
+#block2:hover .block_p_txt, #block2:focus .block_p_txt, #block2:active .block_p_txt{
+    display: none;
 }
 
 #block3:hover, #block3:focus, #block3:active{
@@ -317,6 +341,9 @@ body {
     transition: 0.6s;
     -webkit-transition: 0.6s;
 }
+#block3:hover .block_p_txt, #block3:focus .block_p_txt, #block3:active .block_p_txt{
+    display: none;
+}
 
 #block4:hover, #block4:focus, #block4:active{
     background-image: url(img/block4.jpg);
@@ -330,7 +357,9 @@ body {
     transition: 0.6s;
     -webkit-transition: 0.6s;
 }
-
+#block4:hover .block_p_txt, #block4:focus .block_p_txt, #block4:active .block_p_txt{
+    display: none;
+}
 #block1:hover #blocktr2, #block2:hover #blocktl2, #block3:hover #blocktr, #block4:hover #blocktl, #block1:focus #blocktr2, #block2:focus #blocktl2, #block3:focus #blocktr, #block4:focus #blocktl, #block1:active #blocktr2, #block2:active #blocktl2, #block3:active #blocktr, #block4:active #blocktl{
     display: flex;
     display: -webkit-flex;
@@ -341,7 +370,6 @@ body {
     height: 60px;
     background-color: dimgray;
     position: relative;
-    z-index: 1;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -437,7 +465,6 @@ body {
     -webkit-flex-direction: column; 
     -webkit-justify-content: center;
     -webkit-flex-flow: column;
-    z-index: 1;
 }
 
 #stgnm {
@@ -459,7 +486,7 @@ body {
     min-height: 200px;
     background-color: white;
     display: flex;
-    pointer-events:all;
+    pointer-events:none;
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
@@ -470,7 +497,7 @@ body {
     padding: 40px;
     justify-content: space-between;
     transition: 0.5s;
-    filter: grayscale(60%);
+    filter: grayscale(0%);
     display: -webkit-flex;
     -webkit-align-items: center;
     -webkit-justify-content: space-between;
@@ -509,9 +536,12 @@ body {
     background-repeat: no-repeat;
     transition: 0.4s;
     display: flex;
-    pointer-events:inherit;
+    pointer-events:auto;
     cursor: pointer;
     display: -webkit-flex;
+}
+    .block_p_txt{
+    display: none;
 }
 
 #block1c {
@@ -549,6 +579,10 @@ body {
     min-height: 200px;
     background-position: center;
     background-size: cover;
+}
+    #block1:hover #block2, #block1:hover #block3, #block1:hover #block4, #block2:hover #block1, #block2:hover #block3, #block2:hover #block4, #block3:hover #block1, #block3:hover #block2, #block3:hover #block4, #block4:hover #block1, #block4:hover #block2, #block4:hover #block3, #block1:active #block2, #block1:active #block3, #block1:active #block4, #block2:active #block1, #block2:active #block3, #block2:active #block4, #block3:active #block1, #block3:active #block2, #block3:active #block4, #block4:active #block1, #block4:active #block2, #block4:active #block3, #block1:focus #block2, #block1:focus #block3, #block1:focus #block4, #block2:focus #block1, #block2:focus #block3, #block2:focus #block4, #block3:focus #block1, #block3:focus #block2, #block3:focus #block4, #block4:focus #block1, #block4:focus #block2, #block4:focus #block3{
+   display:flex;
+        display: -webkit-flex;
 }
 
 #block1:hover, #block1:focus, #block1:active{
@@ -654,6 +688,9 @@ body {
 
 
 @media screen and (max-width: 660px) {
+     #header{
+        height: 680px;
+    }
     #navb {
         height: 40px;
     min-height: 40px;
