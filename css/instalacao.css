@@ -62,6 +62,10 @@
     width: 800px;
     height: 600px;
 }
+.inst_subtitl{
+    font-weight: 700;
+    font-size: 30px;
+}
 .inst_txt {
     width: 800px;
     font-size: 20px;
