@@ -21,6 +21,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    display: -webkit-flex;
 }
 #sstitl {
     font-family: 'raleway', sans-serif;
@@ -32,6 +33,8 @@
     align-items: flex-end;
     color: white;
     text-shadow: 0px 0px 20px black;
+    display: -webkit-flex;
+    -webkit-align-items: flex-end;
 }
 #ss_cont{
     width: 1100px;
@@ -42,6 +45,9 @@
     align-items: center;
     box-sizing: border-box;
     padding: 50px;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-align-items: center;
 }
 .ss_titls {
     font-family: 'raleway', sans-serif;
@@ -71,7 +77,11 @@
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
+    overflow-y: hidden;
     align-items: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-align-items: center;
 }
 #ss_img1, #ss_img2, #ss_img3{
     background-repeat: no-repeat;
@@ -102,6 +112,15 @@ iframe{
     margin-bottom: 40px;
 }
 @media screen and (max-width: 1100px){
+    ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
     #sobre_main{
         height:2400px;
         min-height: 100%;
@@ -158,16 +177,15 @@ iframe{
     #sobre_main{
         height:2000px;
         min-height: 100%;
+        margin-top: 40px;
     }
-    #sobre_main{
-    margin-top: 40px;
-}
     #ss_cont{
     padding: 30px;
 }
 .ss_titls {
-    font-size: 34px;
-    margin-top: 60px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 .ss_citation {
     font-size: 16px;
@@ -175,14 +193,6 @@ iframe{
 .ss_txt {
     font-size: 16px;
     line-height: 20px;
-}
-    #ss_cont_logos, #ss_cont_logo{
-    width: 100%;
-    height:280px;
-    margin-bottom: 50px;
-}
-    #ss_gall{
-    width: 100%;
 }
     #ss_img1, #ss_img2, #ss_img3{
     height: 200px;
@@ -208,10 +218,6 @@ iframe{
     }
 }
 @media screen and (max-width:560px) {
-    .ss_titls {
-    font-size: 30px;
-    margin-top: 40px;
-}
     iframe {
         height: 180px;
         min-height: 180px;

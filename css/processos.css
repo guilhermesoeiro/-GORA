@@ -1,12 +1,3 @@
-::-webkit-scrollbar {
-  -webkit-appearance: none;
-  width: 7px;
-}
-::-webkit-scrollbar-thumb {
-  border-radius: 4px;
-  background-color: rgba(0, 0, 0, .5);
-  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
-}
 #proc_main {
     display: flex;
     height: 100%;
@@ -152,6 +143,7 @@
     flex-direction: row;
     -webkit-flex-direction: row;
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 #proc_gallimg1,#proc_gallimg2,#proc_gallimg3,#proc_gallimg4{
     height: 400px;
@@ -183,6 +175,15 @@ iframe {
 }
 
 @media screen and (max-width: 1100px){
+    ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
     #proc_main {
     height: 1600px;
 }
@@ -257,7 +258,7 @@ iframe {
 @media screen and (max-width:660px){
     #proc_main{
         margin-top: 40px;
-        height: 1400px;
+        height: 1440px;
     }
     #procbar{
         height: 120px;
@@ -271,8 +272,9 @@ iframe {
     padding: 30px;
 }
     .proc_title{
-    font-size: 34px;
-        margin-bottom: 20px;
+    font-size: 30px;
+      margin-top: 40px;
+    margin-bottom: 40px;
 }
     .proc_subtitle{
     font-size: 20px;
