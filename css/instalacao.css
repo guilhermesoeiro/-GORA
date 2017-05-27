@@ -128,7 +128,7 @@
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
     #inst_main{
-        height:2700px;
+        height:2680px;
         min-height: 100%;
     }
     #instimg{
@@ -182,7 +182,7 @@
 }
 @media screen and (max-width:660px){
    #inst_main{
-        height:2800px;
+        height:2160px;
         min-height: 100%;
         margin-top: 40px;
     }
@@ -226,11 +226,11 @@
 }
 @media screen and (max-width:375px){
   #inst_main{
-        height:3050px;
+        height:2320px;
     }
 }
 @media screen and (max-width:320px){
    #inst_main{
-        height:3480px;
+        height:2600px;
     }
 }
