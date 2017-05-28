@@ -492,7 +492,7 @@ body {
     min-height: 200px;
     background-color: white;
     display: flex;
-    pointer-events:all;
+    pointer-events:none;
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
@@ -507,7 +507,7 @@ body {
     display: -webkit-flex;
     -webkit-align-items: center;
     -webkit-justify-content: space-between;
-    -webkit-pointer-events:all;
+    -webkit-pointer-events:none;
 }
     #block1 {
         background-image: url(img/block1.jpg);
@@ -543,10 +543,10 @@ body {
     background-repeat: no-repeat;
     transition: 0.4s;
     display: flex;
-    pointer-events:all;
+    pointer-events:auto;
     cursor: pointer;
     display: -webkit-flex;
-    -webkit-pointer-events:all;
+    -webkit-pointer-events:auto;
 }
     .block_p_txt{
     display: none;
