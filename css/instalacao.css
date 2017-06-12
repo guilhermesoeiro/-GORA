@@ -86,7 +86,6 @@
 }
 .inst_gall{
     width: 800px;
-    height: 100%;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
