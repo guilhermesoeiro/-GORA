@@ -53,6 +53,8 @@ body {
     background-repeat: no-repeat;
     align-self: center;
     cursor: pointer;
+    display: flex;
+    display: -webkit-flex;
     -webkit-align-self: center;
 }
 
@@ -67,6 +69,8 @@ body {
     z-index: 10;
     border: none;
     background-color: white;
+    display: flex;
+    display: -webkit-flex;
 }
 
 #dropdown {
@@ -104,7 +108,7 @@ body {
 
 #drop_cont a:hover, #drop_cont a:focus, #drop_cont a:active {
     background-color: black;
-    color: white
+    color: white;
 }
 
 
@@ -188,6 +192,8 @@ body {
     color: white;
     text-shadow: 0px 0px 20px black;
     font-size: 32px;
+    display: flex;
+    display: -webkit-flex;
 }
 #block1c {
     height: 230px;
@@ -281,13 +287,17 @@ body {
 .blocktitle {
     font-family: 'raleway', sans-serif;
     font-weight: 400;
-    font-size: 50px; 
+    font-size: 50px;
+    display: flex;
+    display: -webkit-flex;
 }
 
 .blocktxt{
     width: 340px;
     font-size: 26px;
     margin-top: 30px;
+    display: flex;
+    display: -webkit-flex;
 }
 
 #block1:hover, #block2:hover, #block3:hover, #block4:hover, #block1:focus, #block2:focus, #block3:focus, #block4:focus, #block1:active, #block2:active, #block3:active, #block4:active{
@@ -411,6 +421,8 @@ body {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    display: flex;
+    display: -webkit-flex;
 }
 
 #falogo {

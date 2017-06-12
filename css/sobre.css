@@ -55,6 +55,8 @@
     font-size: 50px;
     margin-top: 80px;
     margin-bottom: 40px;
+    display: flex;
+    display: -webkit-flex;
 }
 .ss_citation {
     font-family: 'raleway', sans-serif;
@@ -63,12 +65,16 @@
     font-size: 20px;
     margin-top: 40px;
     margin-bottom: 10px;
+    display: flex;
+    display: -webkit-flex;
 }
 
 .ss_txt {
     width: 800px;
     font-size: 20px;
     margin-bottom: 30px;
+    display: flex;
+    display: -webkit-flex;
 }
 
 #ss_gall{
@@ -92,6 +98,8 @@
     width: 600px;
     min-width: 600px;
     margin-right: 20px;
+    display: flex;
+    display: -webkit-flex;
 }
 
 #ss_img1{
@@ -110,6 +118,8 @@ iframe{
     height: 450px;
     margin-top: 80px;
     margin-bottom: 40px;
+    display: flex;
+    display: -webkit-flex;
 }
 @media screen and (max-width: 1100px){
     ::-webkit-scrollbar {

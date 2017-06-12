@@ -55,6 +55,8 @@
     font-size: 50px;
     margin-top: 60px;
     margin-bottom: 50px;
+    display: flex;
+    display: -webkit-flex;
 }
 .inst_citation {
     font-family: 'raleway', sans-serif;
@@ -63,6 +65,8 @@
     font-size: 20px;
     margin-top: 0px;
     margin-bottom: 10px;
+    display: flex;
+    display: -webkit-flex;
 }
 #inst_bp{
     background-image: url(img/inst_bp.jpg);
@@ -72,6 +76,8 @@
     width: 800px;
     height: 600px;
     min-height: 600px;
+    display: flex;
+    display: -webkit-flex;
 }
 .inst_subtitl{
     margin-top: 40px;
@@ -79,6 +85,8 @@
     width: 800px;
     font-weight: 700;
     font-size: 30px;
+    display: flex;
+    display: -webkit-flex;
 }
 .inst_gall{
     width: 800px;
@@ -99,6 +107,8 @@
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 40px;
+    display: flex;
+    display: -webkit-flex;
 }
 #inst_mok1{
     background-image: url(img/inst_mok1.jpg);
@@ -116,6 +126,8 @@
     width: 800px;
     font-size: 20px;
     margin-bottom: 30px;
+    display: flex;
+    display: -webkit-flex;
 }
 @media screen and (max-width: 1100px){
     ::-webkit-scrollbar {
