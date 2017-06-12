@@ -121,7 +121,6 @@
     width: 800px;
     font-size: 50px;
     margin-top: 60px;
-    margin-bottom: 40px;
     display: flex;
     display: -webkit-flex;
 }
@@ -130,6 +129,7 @@
     width: 800px;
     font-size: 30px;
     margin-bottom: 20px;
+    margin-top: 100px;
     display: flex;
     display: -webkit-flex;
 }
@@ -149,7 +149,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
 }
-#proc_gallimg1,#proc_gallimg2,#proc_gallimg3,#proc_gallimg4{
+#proc_gallimg1,#proc_gallimg2,#proc_gallimg3,#proc_gallimg4,#proc_mont1,#proc_mont2,#proc_mont3,#proc_mont4,#proc_mont5,#proc_mont6,#proc_mont7,#proc_mont8,#proc_mont9,#proc_mont10,#proc_mont11{
     height: 400px;
     min-height: 400px;
     width: 600px;
@@ -172,6 +172,37 @@
 }
 #proc_gallimg4{
     background-image: url(img/pross_ex4.JPG);
+}
+#proc_mont1{
+    background-image: url(img/proc_mont1.jpg);
+}
+#proc_mont2{
+    background-image: url(img/proc_mont2.jpg);
+}
+#proc_mont3{
+    background-image: url(img/proc_mont3.jpg);
+}
+#proc_mont4{
+    background-image: url(img/proc_mont4.jpg);
+}
+#proc_mont5{
+    background-image: url(img/proc_mont5.jpg);
+}
+#proc_mont6{
+    background-image: url(img/proc_mont6.jpg);
+}
+#proc_mont7{
+    background-image: url(img/proc_mont7.jpg);
+}
+#proc_mont8{
+    background-image: url(img/proc_mont8.jpg);
+}
+#proc_mont9{
+    background-image: url(img/proc_mont9.jpg);
+}#proc_mont10{
+    background-image: url(img/proc_mont10.jpg);
+}#proc_mont11{
+    background-image: url(img/proc_mont11.jpg);
 }
 iframe {
     width: 800px;
