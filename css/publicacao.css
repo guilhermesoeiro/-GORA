@@ -3,12 +3,10 @@
     flex-direction: column;
     margin-top: 60px;
     width: 100%;
-    justify-content: center;
     align-items: center;
     position: relative;
     -webkit-display: flex;
     -webkit-flex-direction: column;
-    -webkit-justify-content: center;
     -webkit-align-items: center;
 }
 

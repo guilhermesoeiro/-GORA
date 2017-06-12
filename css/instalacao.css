@@ -3,12 +3,10 @@
     margin-top: 60px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     position: relative;
     display: -webkit-flex;
     -webkit-flex-direction: column;
-    -webkit-justify-content: center;
     -webkit-align-items: center;
 }
 #instimg{

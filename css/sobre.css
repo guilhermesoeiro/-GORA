@@ -4,12 +4,10 @@
     height: 100%;
     width: 100%;
     margin-top: 60px;
-    justify-content: center;
     align-items: center;
     position: relative;
     -webkit-display: flex;
     -webkit-flex-direction: column;
-    -webkit-justify-content: center;
     -webkit-align-items: center;
 }
 
