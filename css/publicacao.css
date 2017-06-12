@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     margin-top: 60px;
-    height: 100%;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -55,6 +54,8 @@
     font-size: 50px;
     margin-top: 80px;
     margin-bottom: 40px;
+    display: flex;
+    display: -webkit-flex;
 }
 .publi_citation {
     font-family: 'raleway', sans-serif;
@@ -63,19 +64,19 @@
     font-size: 20px;
     margin-top: 40px;
     margin-bottom: 10px;
+    display: flex;
+    display: -webkit-flex;
 }
 
 .publi_txt {
     width: 800px;
     font-size: 20px;
     margin-bottom: 30px;
+    display: flex;
+    display: -webkit-flex;
 }
 
 @media screen and (max-width: 1100px){
-    #publi_main{
-        height:1400px;
-        min-height: 100%;
-    }
    #publiimg {
     width: 100%;
 }
@@ -84,10 +85,6 @@
 }
 }
 @media screen and (max-width:850px){
-    #sobre_main{
-        height:1000px;
-        min-height: 100%;
-    }
     #publiimg {
     height: 180px;
 }
@@ -111,8 +108,6 @@
 }
 @media screen and (max-width:660px){
     #publi_main{
-        height:1000px;
-        min-height: 100%;
         margin-top: 40px;
     }
     #publi_cont{
@@ -141,14 +136,4 @@
     .publi_citation{
         margin-top: 20px;
     }
-}
-@media screen and (max-width:375px){
-    #publi_main{
-        height:1200px;
-    }  
-}
-@media screen and (max-width:320px){
-    #publi_main{
-        height:1400px;
-    }  
 }

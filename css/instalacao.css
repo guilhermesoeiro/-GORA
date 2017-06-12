@@ -1,5 +1,4 @@
 #inst_main{
-    height: 100%;
     width: 100%;
     margin-top: 60px;
     display: flex;
@@ -138,10 +137,6 @@
   background-color: rgba(0, 0, 0, .5);
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
-    #inst_main{
-        height:2680px;
-        min-height: 100%;
-    }
     #instimg{
     width: 100%;
 }
@@ -193,8 +188,6 @@
 }
 @media screen and (max-width:660px){
    #inst_main{
-        height:2160px;
-        min-height: 100%;
         margin-top: 40px;
     }
     #inst_cont{
@@ -234,14 +227,4 @@
     #insttitl{
     font-size: 30px;
 }
-}
-@media screen and (max-width:375px){
-  #inst_main{
-        height:2320px;
-    }
-}
-@media screen and (max-width:320px){
-   #inst_main{
-        height:2600px;
-    }
 }

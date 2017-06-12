@@ -194,9 +194,6 @@ iframe {
   background-color: rgba(0, 0, 0, .5);
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
-    #proc_main {
-    height: 1600px;
-}
     
    #procintroimg{
     width: 100%;
@@ -223,9 +220,6 @@ iframe {
 }
 }
 @media screen and (max-width:850px){
-    #proc_main {
-    height: 1600px;
-}
     #procintroimg{
     height: 180px;
 }
@@ -268,7 +262,6 @@ iframe {
 @media screen and (max-width:660px){
     #proc_main{
         margin-top: 40px;
-        height: 1440px;
     }
     #procbar{
         height: 120px;
@@ -338,18 +331,10 @@ iframe {
     }
 }
 @media screen and (max-width:375px) {
-    #proc_main {
-    height: 1540px;
-}
     #procbutt1, #procbutt2, #procbutt3{
         width: 100px;
     }
      .procname {
     font-size: 16px;
-}
-}
-@media screen and (max-width:320px) {
-    #proc_main {
-    height: 1600px;
 }
 }
