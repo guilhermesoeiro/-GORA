@@ -81,9 +81,11 @@
     overflow-x: scroll;
     overflow-y: hidden;
     align-items: center;
+    justify-content: center;
     display: -webkit-flex;
     -webkit-flex-direction: row;
     -webkit-align-items: center;
+    -webkit-justify-content: center;
 }
 #ss_img1, #ss_img2, #ss_img3{
     background-repeat: no-repeat;
