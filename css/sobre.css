@@ -92,7 +92,7 @@
     min-height: 400px;
     width: 600px;
     min-width: 600px;
-    margin-right: 20px;
+    margin-right: 40px;
     display: flex;
     display: -webkit-flex;
 }
@@ -190,11 +190,10 @@ iframe{
     line-height: 20px;
 }
     #ss_img1, #ss_img2, #ss_img3{
-    height: 200px;
-    min-height: 200px;
+    height: 240px;
+    min-height: 240px;
     width: 300px;
     min-width: 300px;
-        margin-right: 0px;
 }
     #ss_img1{
         width:250px;
