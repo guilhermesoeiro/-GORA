@@ -4,6 +4,7 @@
     flex-direction: column;
     margin-top: 60px;
     align-items: center;
+    position: relative;
     display: -webkit-flex;
     -webkit-align-items: center;
     -webkit-flex-direction: column;
