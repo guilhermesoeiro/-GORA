@@ -129,7 +129,7 @@
     width: 800px;
     font-size: 30px;
     margin-bottom: 20px;
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     display: -webkit-flex;
 }
@@ -267,7 +267,7 @@ iframe {
     width: 100%;
 }
     
-#proc_gallimg1,#proc_gallimg2,#proc_gallimg3,#proc_gallimg4{
+#proc_gallimg1,#proc_gallimg2,#proc_gallimg3,#proc_gallimg4,#proc_mont1,#proc_mont2,#proc_mont3,#proc_mont4,#proc_mont5,#proc_mont6,#proc_mont7,#proc_mont8,#proc_mont9,#proc_mont10,#proc_mont11{
     height: 300px;
     min-height: 300px;
     width: 500px;
@@ -306,15 +306,15 @@ iframe {
     .proc_title{
     font-size: 30px;
       margin-top: 40px;
-    margin-bottom: 40px;
 }
     .proc_subtitle{
     font-size: 20px;
+        margin-top: 60px;
 }
     .proc_txt{
     font-size: 16px;
 }
-    #proc_gallimg1,#proc_gallimg2,#proc_gallimg3,#proc_gallimg4{
+    #proc_gallimg1,#proc_gallimg2,#proc_gallimg3,#proc_gallimg4,#proc_mont1,#proc_mont2,#proc_mont3,#proc_mont4,#proc_mont5,#proc_mont6,#proc_mont7,#proc_mont8,#proc_mont9,#proc_mont10,#proc_mont11{
     height: 240px;
     min-height: 240px;
     width: 300px;
