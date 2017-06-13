@@ -396,7 +396,7 @@ body {
 
 #footer {
     width: 100%;
-    height: 40px;
+    height: 50px;
     background-color: dimgray;
     position: relative;
     display: flex;
@@ -410,7 +410,7 @@ body {
 }
 
 #fshelf {
-    height: 40px;
+    height: 50px;
     width: 1100px;
     box-sizing: border-box;
     display: flex;
@@ -430,8 +430,8 @@ body {
 }
 
 #falogo, #fbalogo, #fblogo {
-    height: 20px;
-    width: 90px;
+    height: 30px;
+    width: 100px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -450,7 +450,6 @@ body {
 }
 
 #fblogo {
-    height: 30px;
     background-image: url(img/fb_logo__white.png);
     float: right;
     margin-left: auto;
@@ -777,6 +776,23 @@ body {
     width: 60px;
     }
 
+    
+    #footer{
+        height: 40px;
+    }
+    
+    #fshelf{
+        height: 40px;
+    }
+    
+    .foottxt {
+    font-size: 16px;
+}
+
+#falogo, #fbalogo {
+    height: 20px;
+    width: 90px;
+}
 
 #falogo {
     margin-left: 0px;
@@ -784,6 +800,10 @@ body {
 
 #fbalogo {
     margin-left: 6px;
+}
+    #fblogo {
+    width: 50px;
+}
 }
 @media screen and (max-width:360px){
     .blockmt{
