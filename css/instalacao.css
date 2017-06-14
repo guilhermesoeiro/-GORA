@@ -178,10 +178,6 @@
     #inst_cont{
         width: 100%;
     }
-    #inst_bp{
-    height: 600px;
-    min-height: 600px;
-}
 }
 @media screen and (max-width:850px){
     #instimg{
