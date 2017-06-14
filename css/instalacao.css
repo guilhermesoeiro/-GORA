@@ -64,16 +64,24 @@
     display: flex;
     display: -webkit-flex;
 }
-#inst_bp{
-    background-image: url(img/inst_bp.jpg);
+#inst_bp, #inst_pf, #inst_sf{
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     width: 800px;
     height: 600px;
-    min-height: 600px;
     display: flex;
     display: -webkit-flex;
+}
+#inst_bp{
+   background-image: url(img/inst_bp.jpg); 
+}
+#inst_pf{
+    background-image:url(img/inst_pfimg.jpg);
+}
+#inst_sf{
+    background-image: url(img/inst_sf2.jpg);
 }
 .inst_subtitl{
     margin-top: 80px;
@@ -93,7 +101,7 @@
     display: -webkit-flex;
     -webkit-flex-direction: row;
 }
-#inst_pf1,#inst_pf2,#inst_pf3,#inst_pf4,#inst_pf5,#inst_pf6,#inst_sf1,#inst_sf2,#inst_sf3,#inst_sf4,#inst_sf5,#inst_sf6,#inst_sf7,#inst_sf8,#inst_sf9{
+#inst_pf1,#inst_pf2,#inst_pf3,#inst_pf4,#inst_pf5,#inst_pf6,#inst_sf1,#inst_sf2,#inst_sf3,#inst_sf4,#inst_sf5,#inst_sf6,#inst_sf7,#inst_sf8{
     height: 400px;
     min-height: 400px;
     width: 600px;
@@ -127,27 +135,24 @@
     background-image: url(img/inst_sf1.jpg);
 }
 #inst_sf2{
-    background-image: url(img/inst_sf2.jpg);
-}
-#inst_sf3{
     background-image: url(img/inst_sf3.jpg);
 }
-#inst_sf4{
+#inst_sf3{
     background-image: url(img/inst_sf4.jpg);
 }
-#inst_sf5{
+#inst_sf4{
     background-image: url(img/inst_sf5.jpg);
 }
-#inst_sf6{
+#inst_sf5{
     background-image: url(img/inst_sf6.jpg);
 }
-#inst_sf7{
+#inst_sf6{
     background-image: url(img/inst_sf7.jpg);
 }
-#inst_sf8{
+#inst_sf7{
     background-image: url(img/inst_sf8.jpg);
 }
-#inst_sf9{
+#inst_sf8{
     background-image: url(img/inst_sf9.jpg);
 }
 .inst_txt {
@@ -198,11 +203,6 @@
 .inst_citation {
     width: 100%;
 }
-    #inst_bp{
-    width: 100%;
-    height: 600px;
-    min-height: 600px;
-}
 
 .inst_txt {
     width: 100%;
@@ -210,10 +210,9 @@
     .inst_gall{
     width: 100%;
 }
- #inst_bp{
+ #inst_bp, #inst_pf, #inst_sf{
      width: 100%;
     height: 500px;
-    min-height: 500px;
 }
     #inst_pf1,#inst_pf2,#inst_pf3,#inst_pf4,#inst_pf5,#inst_pf6,#inst_sf1,#inst_sf2,#inst_sf3,#inst_sf4,#inst_sf5,#inst_sf6,#inst_sf7,#inst_sf8,#inst_sf9{
     height: 300px;
@@ -244,9 +243,8 @@
     font-size: 16px;
     line-height: 20px;
 }
-    #inst_bp{
+    #inst_bp, #inst_pf, #inst_sf{
     height: 260px;
-    min-height: 260px;
 }
     #inst_pf1,#inst_pf2,#inst_pf3,#inst_pf4,#inst_pf5,#inst_pf6,#inst_sf1,#inst_sf2,#inst_sf3,#inst_sf4,#inst_sf5,#inst_sf6,#inst_sf7,#inst_sf8,#inst_sf9{
     height: 240px;
