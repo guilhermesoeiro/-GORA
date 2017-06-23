@@ -259,7 +259,7 @@
     font-size: 30px;
 }
 }
-@media screen and (max-width:340px) {
+@media screen and (max-width:360px) {
     #inst_bp, #inst_pf, #inst_sf{
     height: 200px;
 }
