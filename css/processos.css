@@ -121,6 +121,7 @@
     width: 800px;
     font-size: 50px;
     margin-top: 60px;
+    margin-bottom: 40px;
     display: flex;
     display: -webkit-flex;
 }
@@ -129,7 +130,6 @@
     width: 800px;
     font-size: 30px;
     margin-bottom: 20px;
-    margin-top: 80px;
     display: flex;
     display: -webkit-flex;
 }
@@ -142,6 +142,7 @@
 }
 .proc_gall{
     width: 800px;
+    margin-bottom: 80px;
  display: flex;
     display: -webkit-flex;
     flex-direction: row;
@@ -208,7 +209,7 @@ iframe {
     width: 800px;
     height: 450px;
     margin-top: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     display: flex;
     display: -webkit-flex;
 }
@@ -306,10 +307,10 @@ iframe {
     .proc_title{
     font-size: 30px;
       margin-top: 40px;
+        margin-bottom: 40px;
 }
     .proc_subtitle{
     font-size: 20px;
-        margin-top: 60px;
 }
     .proc_txt{
     font-size: 16px;

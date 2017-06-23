@@ -71,6 +71,7 @@
     background-size: contain;
     width: 800px;
     height: 600px;
+    margin-bottom: 40px;
     display: flex;
     display: -webkit-flex;
 }
@@ -84,7 +85,6 @@
     background-image: url(img/inst_sf2.jpg);
 }
 .inst_subtitl{
-    margin-top: 80px;
     margin-bottom: 40px;
     width: 800px;
     font-weight: 700;
@@ -94,6 +94,7 @@
 }
 .inst_gall{
     width: 800px;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
@@ -256,5 +257,10 @@
 }
     #insttitl{
     font-size: 30px;
+}
+}
+@media screen and (max-width:340px) {
+    #inst_bp, #inst_pf, #inst_sf{
+    height: 200px;
 }
 }

@@ -110,7 +110,28 @@ body {
     background-color: black;
     color: white;
 }
+#myBtn {
+    width: 60px;
+    height: 60px;
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 60px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-image: url(img/cd-top-arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #111111;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
 
+#myBtn:hover {
+    background-color: dimgray;
+}
 
 #header {
     width: 100%;
@@ -467,7 +488,11 @@ body {
     #nshelf {
         width: 100%;
 }
-    
+    #myBtn {
+    bottom: 70px;
+    right: 0px;
+    opacity: 0.8;
+    }
     #header {
         width: 100%;
         min-width: 100%;
@@ -728,7 +753,9 @@ body {
         height: 40px;
     min-height: 40px;
     }
-    
+    #myBtn {
+    height: 40px;
+    }
     #nlogo {
     width:30px;
     height:30px;

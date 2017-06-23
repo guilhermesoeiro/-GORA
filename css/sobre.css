@@ -75,6 +75,7 @@
 
 #ss_gall{
     width: 800px;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
