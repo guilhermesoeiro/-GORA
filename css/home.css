@@ -123,14 +123,14 @@ body {
     background-image: url(img/cd-top-arrow.svg);
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #111111;
+    background-color: dimgray;
     color: white;
     cursor: pointer;
     transition: 0.5s;
 }
 
-#myBtn:hover {
-    background-color: dimgray;
+#myBtn:hover, #myBtn:focus, #myBtn:active {
+    background-color: #111111;
 }
 
 #header {
